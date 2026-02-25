@@ -1,0 +1,19 @@
+
+## 🔌 Circuit Connections
+
+### 1️⃣ DS18B20 Temperature Sensor
+- VCC → 3.3V  
+- GND → GND  
+- DATA → GPIO 5  
+- Use 4.7kΩ pull-up resistor between VCC and DATA  
+
+### 2️⃣ OLED Display (SSD1306 - I2C)
+- VCC → 3.3V  
+- GND → GND  
+- SDA → GPIO 21  
+- SCL → GPIO 22  
+- I2C Address → 0x3C  
+
+### 3️⃣ Buzzer
+- Positive → GPIO 25  
+- Negative → GND  

@@ -12,8 +12,8 @@
 #include "freertos/queue.h"
 
 // defining our Dasboard Address
-#define IO_USERNAME  "BRAVO_COWBOY"
-#define IO_KEY       "aio_kKbP70Ci4BwnZQN1Rqh62U8sI1U8"
+#define IO_USERNAME  "xxxxxxx"
+#define IO_KEY       "xxxxxxxxx"
 #define AIO_SERVER   "io.adafruit.com"
 #define AIO_SERVER_PORT   1883
 
@@ -112,5 +112,6 @@ void loop() {
   // in FreeRTOS we dont need the void loop therefore we need to stop the lopp for forever
   vTaskDelay(PortMAX_DELAY);   //"PortMAX_DELAY" delays the loop for infinite
 }  //loop code runs again and again
+
 
 
